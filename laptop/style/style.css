@@ -1,0 +1,104 @@
+body {
+    background: #f8f8f8;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+.header {
+    height: 120px;
+}
+.logo{
+    margin-left: 15px;
+}
+.shop_name {
+    position: absolute;
+    top: 80px;
+    right: 200px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.main_menu {
+    float: right;
+    margin-right: 20px;
+}
+.main_menu li {
+    display: inline-block;
+    padding: 5px;
+}
+.main_menu li a:hover{
+    color: darkred;
+    text-decoration: none;
+}
+.catalog_product:after {
+    display: block;
+    clear : both;
+    content: "";
+}
+.product_Unit {
+    float: left;
+    margin-right: 5%;
+    margin-bottom: 8px;
+}
+.product_Unit:nth-child(3n) {
+    margin-right: 0px;
+}
+
+.laptop {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+    margin-left: 25px;
+}
+.product_Desc:after {
+    display: block;
+    clear: both;
+    content: "";
+}
+.product_DescImg {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+.product_shortDescription > .product_Desc {
+    margin-top: 0;
+}
+
+.buyBtn {
+    background: #6292c2;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+    float: right;
+    display: block;
+}
+.buyBtn:hover {
+    background-color: darkred;
+    color: white;
+}
+
+.buyBtn:active {
+    background: darkblue;
+}
+
+.contacts_form input[type="text"],
+.contacts_form input[type="email"] {
+    width: 200px;
+    height: 20px;
+    color: #274e7e;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+.contacts_form input[type='email']:focus {
+    background: #274e7d;
+    color: #fff;
+}
+.footer {
+
+    height: 200px;
+    background: aquamarine;
+    text-align: right;
+    padding: 10px 15px 0px 0px;
+    font-weight: bold;
+}
