@@ -55,6 +55,7 @@ header {
     width: auto;
     height: 700px;
     background: url('../images/indexBack.jpg');
+    background-size: cover;
 }
 .headerInside {
     height: inherit;
@@ -63,9 +64,72 @@ header {
     background: url('../images/Logo.png') no-repeat 69px 24px;
     position: relative;
 }
+.welcome {
+    background-color: #fff51f;
+    width: 270px;
+    height: 300px;
+    position: absolute;
+    top: 336px;
+    padding: 82px 25px 0 25px;
+    box-sizing: border-box;
+}
+.welcomeTitle {
+    font-family: "Raleway Bold", sans-serif;
+    color: #333333;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.welcomeText {
+    font-family: "Raleway Bold Italic", sans-serif;
+    font-size: 18px;
+    line-height: 14px;
+    margin-top: 24px;
+    color: #333;
+}
+.headerSocials {
+    position: absolute;
+    right: 131px;
+    top: 50px;
+}
+.headerSocials i {
+    color: #fff;
+    margin-right: 10px;
+}
+.funride {
+    position: absolute;
+    right: 50px;
+    top: 250px;
+}
+.funrideHeader {
+    font-family: "Raleway Extra Bold", sans-serif;
+    color: #fff51f;
+    font-size: 48px;
+    line-height: 34px;
+    text-transform: uppercase;
+}
+.funrideShortDescription {
+    font-family: "Raleway Regular", sans-serif;
+    color: #fff51f;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.funrideBuyBtn {
+    background-color: #fff51f;
+    width: 124px;
+    height: 49px;
+    display: block;
+    line-height: 49px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    font-family: "Raleway Black", sans-serif;
+    text-transform: uppercase;
+    color: #000;
+    margin-top: 62px;
+}
 .container {
     margin-top: -20px;
-
 }
 .container :after,
 .content:after {
@@ -86,6 +150,52 @@ header {
     margin: 0;
     padding: 0;
     list-style: none;
+}
+.main_menu :first-child {
+    height: 66px;
+    background: #333;
+    color: #fff;
+    line-height: 66px;
+}
+.main_menu a {
+    display: block;
+    height: inherit;
+    text-transform: uppercase;
+    font-family: "Roboto Black", sans-serif;
+    font-size: 14px;
+    color: #000;
+    text-decoration: none;
+    padding: 0 40px;
+    box-sizing: border-box;
+    line-height: 43px;
+}
+
+.main_menu a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.banner {
+    margin-top: 30px;
+    height: 300px;
+    background: #fff;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bannerInside {
+    width: 100%;
+    height: 100%;
+    background: url('../images/store.jpg');
+}
+.bannerInside span {
+    font-family: "Raleway Black Italic", sans-serif;
+    font-size: 36px;
+    text-transform: uppercase;
+    position: relative;
+    top: 129px;
+    left: 142px;
+    color: #333;
 }
 .rightContent {
     width: 870px;
@@ -132,7 +242,7 @@ header {
     margin-bottom: 19px;
 }
 
-.productShortDescripton {
+.productShortDescription {
     width: 155px;
     font-family: "Roboto Black Italic", sans-serif;
     font-size: 14px;
@@ -155,63 +265,6 @@ header {
     color: #e24602;
     font-size: 14px;
     text-decoration: line-through;
-}
-.main_menu {
-    background-color: #26d2fc;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-.main_menu :first-child {
-    height: 66px;
-    background: #333;
-    color: #fff;
-    line-height: 66px;
-}
-
-
-
-.main_menu a {
-    display: block;
-    height: inherit;
-    text-transform: uppercase;
-    font-family: "Roboto Black", sans-serif;
-    font-size: 14px;
-    color: #000;
-    text-decoration: none;
-    padding: 0 40px;
-    box-sizing: border-box;
-    line-height: 43px;
-}
-
-.main_menu a:hover {
-    background-color: #333;
-    color: #fff;
-}
-
-.banner {
-    margin-top: 30px;
-    height: 300px;
-    background: #fff;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-.bannerInside {
-    width: 100%;
-    height: 100%;
-    background: url('../images/store.jpg');
-}
-.bannerInside span {
-    font-family: "Raleway Black Italic", sans-serif;
-    font-size: 36px;
-    text-transform: uppercase;
-    position: relative;
-    top: 129px;
-    left: 142px;
-    color: #333;
 }
 .brandsAndSocial {
     width: 1170px;
@@ -247,10 +300,10 @@ header {
     font-size: 32px;
     font-weight: bold;
     position: relative;
-    top: 5px;
+    top: 4px;
 }
 
-.instaFeedHead span {
+.instagramFeedHeader span {
     font-size: 22px;
 }
 
@@ -314,38 +367,32 @@ footer {
     padding-top: 75px;
     box-sizing: border-box;
 }
-
-.columnHead {
+.footerContentHeader {
     font-family: "Raleway Extra Bold", sans-serif;
     font-size: 18px;
     color: #fff;
     margin-bottom: 28px;
 }
-
-.columnLinks a {
-    font-family: "Roboto Regular", sans-serif;
-    font-size: 12px;
-    color: #fff;
-    text-decoration: none;
+.footerContentLink a{
     display: block;
+    font-size: 12px;
+    text-decoration: none;
+    font-family: "Raleway Regular", sans-serif;
+    color: #fff;
     margin-bottom: 4px;
 }
-
 .newsLetter {
     width: 270px;
 }
-
-.columnNewsLetter {
+.newsLetterColumn {
     font-family: "Roboto Regular", sans-serif;
     font-size: 12px;
     color: #fff;
 }
-
 .newsLetterText {
     margin-bottom: 31px;
 }
-
-.columnNewsLetter input {
+.newsLetterColumn input {
     background-color: #fff51f;
     width: 180px;
     height: 30px;
@@ -355,8 +402,7 @@ footer {
     box-sizing: border-box;
     float: left;
 }
-
-.columnNewsLetter button {
+.newsLetterColumn button {
     width: 71px;
     height: 30px;
     background: #000;
@@ -367,70 +413,53 @@ footer {
     border: 0;
     outline: none;
 }
-
-.columnNewsLetter button:hover {
-    background: #fff;
-    color: #000;
-    cursor: pointer;
-}
-
-.cardsWrap {
+.cards {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     margin-top: 45px;
 }
-
-.about {
+.aboutUs {
     width: 232px;
     color: #fff;
     font-family: "Roboto Regular", sans-serif;
 }
-
-.aboutText {
+.aboutUsText {
     font-size: 12px;
     text-align: justify;
 }
-
-.aboutPhone {
+.aboutUsPhone {
     font-size: 14px;
     margin-top: 14px;
 }
-
-.aboutPhone span,
-.aboutEmail span {
+.aboutUsPhone span,
+.aboutUsEmail span {
     margin-right: 10px;
 }
-
-.aboutEmail {
+.aboutUsEmail {
+    font-size: 14px;
     margin-top: 14px;
     color: #faef03;
-    font-size: 14px;
 }
-
-.aboutEmail span {
+.aboutUsEmail span {
     color: #fff;
 }
-
-.footerCopyrights {
+.footerCopy {
     height: 47px;
     background: #333;
     line-height: 47px;
 }
-
-.copyrightsInside {
+.footerCopyContent {
     width: 1170px;
     margin: 0 auto;
     height: inherit;
     color: #fff;
 }
-
-.footerCopySign {
+.footerCopyText {
     float: left;
     font-size: 12px;
     font-family: "Roboto Regular", sans-serif;
 }
-
 .footerSocials {
     height: inherit;
     float:right;
