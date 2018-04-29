@@ -1,0 +1,552 @@
+@font-face {
+  font-family: "Raleway Black";
+  src: url(../fonts/Raleway-Black.ttf);
+}
+@font-face {
+  font-family: "Raleway Black Italic";
+  src: url(../fonts/Raleway-Black-Italic.ttf);
+}
+@font-face {
+  font-family: "Raleway Bold";
+  src: url(../fonts/Raleway-Bold.ttf);
+}
+@font-face {
+  font-family: "Raleway Bold Italic";
+  src: url(../fonts/Raleway-Bold-Italic.ttf);
+}
+@font-face {
+  font-family: "Raleway Extra Bold";
+  src: url(../fonts/Raleway-ExtraBold.ttf);
+}
+@font-face {
+  font-family: "Raleway Regular";
+  src: url(../fonts/Raleway-Regular.ttf);
+}
+@font-face {
+  font-family: "Roboto Black";
+  src: url(../fonts/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: "Roboto Black Italic";
+  src: url(../fonts/Roboto-Black-Italic.ttf);
+}
+@font-face {
+  font-family: "Roboto Bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: "Roboto Regular";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+body {
+  margin: 0;
+  background: #dbeef2;
+}
+header {
+  width: auto;
+  height: 700px;
+  background: url('../images/indexBack.jpg');
+  background-size: cover;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  header {
+    height: 835px;
+  }
+}
+header .container {
+  position: relative;
+}
+header .container .navbar-header .navbar-brand .xsLogo {
+  font-size: 20px;
+  font-family: "Raleway Black", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+header .container .navbar-header .navbar-brand .xsLogo:hover {
+  color: black;
+}
+header .container .navbar-header .navbar-toqqle a:focus,
+header .container .navbar-header .navbar-toqqle a:hover {
+  background-color: #fff;
+}
+header .container .xsNavBar {
+  border: none;
+  z-index: 1;
+  margin: 0 -15px;
+}
+header .container .logo {
+  display: block;
+  width: 121px;
+  height: 111px;
+  position: absolute;
+  left: 69px;
+  top: 24px;
+  background: url(../images/Logo.png) no-repeat center top;
+  padding-top: 89px;
+  font-size: 20px;
+  font-family: "Raleway Black", sans-serif;
+  text-transform: uppercase;
+  color: black;
+}
+header .container .logo:hover {
+  color: black;
+  text-decoration: none;
+}
+header .container .welcome {
+  background-color: #fff51f;
+  width: 270px;
+  height: 300px;
+  position: absolute;
+  top: 336px;
+  padding: 82px 25px 0 25px;
+  box-sizing: border-box;
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  header .container .welcome {
+    top: 250px;
+  }
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  header .container .welcome {
+    top: 111px;
+    left: 15px;
+  }
+}
+header .container .welcome .welcomeTitle {
+  font-family: "Raleway Bold", sans-serif;
+  color: #333333;
+  font-size: 30px;
+  line-height: 30px;
+  text-transform: uppercase;
+}
+header .container .welcome .welcomeText {
+  font-family: "Raleway Bold Italic", sans-serif;
+  font-size: 18px;
+  line-height: 14px;
+  margin-top: 24px;
+  color: #333;
+}
+header .container .headerSocials {
+  position: absolute;
+  right: 131px;
+  top: 50px;
+  padding: 15px;
+}
+header .container .headerSocials a {
+  text-decoration: none;
+}
+header .container .headerSocials i {
+  color: #fff;
+  margin-right: 10px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  header .container .headerSocials {
+    top: 50px;
+    left: 15px;
+    min-width: 80%;
+  }
+}
+header .container .funride {
+  position: absolute;
+  right: 50px;
+  top: 250px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  header .container .funride {
+    left: 15px;
+    top: 425px;
+  }
+}
+header .container .funride .funrideHeader {
+  font-family: "Raleway Extra Bold", sans-serif;
+  color: #fff51f;
+  font-size: 48px;
+  line-height: 34px;
+  text-transform: uppercase;
+}
+header .container .funride .funrideShortDescription {
+  font-family: "Raleway Regular", sans-serif;
+  color: #fff51f;
+  font-size: 18px;
+  margin-top: 5px;
+}
+header .container .funride .funrideBuyBtn {
+  background-color: #fff51f;
+  width: 124px;
+  height: 49px;
+  display: block;
+  line-height: 49px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Raleway Black", sans-serif;
+  text-transform: uppercase;
+  color: #000;
+  margin-top: 62px;
+}
+.content {
+  margin-top: -20px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content {
+    margin-top: 0;
+  }
+}
+.content .main_menu {
+  background-color: #26d2fc;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.content .main_menu li {
+  height: 43px;
+  width: 100%;
+}
+.content .main_menu li:first-child {
+  height: 66px;
+  background: #333;
+}
+.content .main_menu li:first-child a {
+  color: #fff;
+  line-height: 66px;
+}
+.content .main_menu li a {
+  display: block;
+  height: inherit;
+  text-transform: uppercase;
+  font-family: "Roboto Black", sans-serif;
+  font-size: 14px;
+  color: #000;
+  text-decoration: none;
+  padding: 0 40px;
+  box-sizing: border-box;
+  line-height: 43px;
+}
+.content .main_menu li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+.content .banner {
+  margin-top: 30px;
+  height: 300px;
+  background: #fff;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.content .banner .bannerInside {
+  width: 100%;
+  height: 100%;
+  background: url('../images/store.jpg');
+}
+.content .banner .bannerInside span {
+  font-family: "Raleway Black Italic", sans-serif;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  top: 129px;
+  left: 142px;
+  color: #333;
+}
+.content .productHeader {
+  height: 78px;
+  line-height: 78px;
+  padding: 0 25px;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  font-family: "Roboto Black Italic", sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #707070;
+  margin-bottom: 30px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content .productHeader {
+    margin-top: 15px;
+  }
+}
+@media all and (min-width: 583px) and (max-width: 767px) {
+  .content .productUnitCol {
+    width: 50%;
+    float: left;
+  }
+}
+.content .productUnit {
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+.content .productUnit .productUnitImg {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.content .productUnit .nameAndPrice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 45px;
+}
+.content .productUnit .nameAndPrice .productName {
+  width: 155px;
+  font-family: "Roboto Black Italic", sans-serif;
+  font-size: 14px;
+  color: #333;
+  float: left;
+  max-height: 2.4em;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.content .productUnit .nameAndPrice .productPrice {
+  font-family: "Roboto Black Italic", sans-serif;
+  color: #333;
+}
+.content .productUnit .nameAndPrice .newPrice {
+  font-size: 18px;
+}
+.content .productUnit .nameAndPrice .oldPrice {
+  color: #e24602;
+  font-size: 14px;
+  text-decoration: line-through;
+}
+.content .brands {
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px;
+  box-sizing: border-box;
+}
+.content .brands img {
+  margin: 5px;
+}
+.content .istagramFeed {
+  height: 350px;
+  background-color: #eaeaea;
+  padding: 50px 0;
+  box-sizing: border-box;
+}
+.content .istagramFeed .instagramFeedHeader {
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  font-family: "Roboto Black Italic", sans-serif;
+}
+.content .istagramFeed .instagramFeedHeader i {
+  font-size: 32px;
+  font-weight: bold;
+  position: relative;
+  top: 4px;
+}
+.content .istagramFeed .instagramFeedHeader span {
+  font-size: 22px;
+}
+.content .istagramFeed .instagramFeedImages {
+  margin-top: 29px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.content .istagramFeed .instagramFeedImages img {
+  padding: 8px;
+  background: #fff;
+}
+.content .socialButtons {
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content .socialButtons {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+.content .socialButtons a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: calc(33.33333333%);
+  height: inherit;
+  text-decoration: none;
+  color: #fff;
+  font-size: 4rem;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .content .socialButtons a {
+    width: auto;
+  }
+}
+.content .socialButtons a:nth-child(1) {
+  background-color: #3b5997;
+}
+.content .socialButtons a:nth-child(2) {
+  background-color: #3fccfd;
+}
+.content .socialButtons a:nth-child(3) {
+  background-color: #cb2027;
+}
+footer {
+  min-height: 340px;
+  background-color: #373737;
+  color: #fff;
+  text-align: justify;
+}
+footer > .container:before,
+footer > .container:after {
+  display: none;
+}
+footer .footerInside {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 75px;
+  box-sizing: border-box;
+}
+@media all and (min-width: 0) and (max-width: 991px) {
+  footer .footerInside .footerColumn {
+    flex-grow: 1;
+    padding: 10px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer .footerInside .footerColumn:nth-child(1) {
+    margin-left: -10px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer .footerInside .footerColumn:nth-child(4) {
+    margin-right: -10px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 991px) {
+  footer .footerInside .footerColumn:nth-child(5) {
+    margin: 0 -10px;
+  }
+}
+footer .footerInside .footerColumn .columnHead {
+  font-family: "Raleway Extra Bold", sans-serif;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 28px;
+}
+footer .footerInside .footerColumn .columnLinks a {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 4px;
+}
+footer .footerInside .newsLetter {
+  width: 270px;
+}
+footer .footerInside .newsLetter .columnNewsLetter {
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 12px;
+  color: #fff;
+}
+footer .footerInside .newsLetter .columnNewsLetter .newsLetterText {
+  margin-bottom: 31px;
+}
+footer .footerInside .newsLetter .columnNewsLetter input {
+  background-color: #faef03;
+  width: 180px;
+  height: 30px;
+  outline: none;
+  border: none;
+  padding: 0 5px;
+  box-sizing: border-box;
+  float: left;
+  color: #333;
+}
+footer .footerInside .newsLetter .columnNewsLetter button {
+  width: 71px;
+  height: 30px;
+  background: #333;
+  color: #fff;
+  font-family: "Roboto Regular", sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  border: 0;
+  outline: none;
+}
+footer .footerInside .newsLetter .columnNewsLetter button:hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+footer .footerInside .newsLetter .columnNewsLetter .cardsWrap {
+  margin-top: 45px;
+}
+footer .footerInside .newsLetter .columnNewsLetter .cardsWrap img {
+  float: left;
+  margin-right: 5px;
+}
+footer .footerInside .about {
+  width: 232px;
+  color: #fff;
+  font-family: "Roboto Regular", sans-serif;
+}
+footer .footerInside .about .aboutText {
+  font-size: 12px;
+  text-align: justify;
+}
+footer .footerInside .about .aboutPhone {
+  font-size: 14px;
+  margin-top: 14px;
+}
+footer .footerInside .about .aboutPhone span {
+  margin-right: 10px;
+}
+footer .footerInside .about .aboutEmail {
+  margin-top: 14px;
+  color: #faef03;
+  font-size: 14px;
+}
+footer .footerInside .about .aboutEmail span {
+  margin-right: 10px;
+  color: #fff;
+}
+.footerCopyrights {
+  background: #333;
+}
+.footerCopyrights .copyrightsInside {
+  min-height: 47px;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media all and (min-width: 0) and (max-width: 767px) {
+  .footerCopyrights .copyrightsInside {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
+.footerCopyrights .copyrightsInside:before,
+.footerCopyrights .copyrightsInside:after {
+  display: none;
+}
+.footerCopyrights .copyrightsInside > div {
+  min-height: inherit;
+}
+.footerCopyrights .copyrightsInside .footerCopySign {
+  font-size: 12px;
+  line-height: 47px;
+  font-family: "Roboto Regular", sans-serif;
+}
+.footerCopyrights .copyrightsInside .footerSocials {
+  height: inherit;
+  width: 178px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
